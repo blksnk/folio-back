@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "project_texts",
+  "info": {
+    "singularName": "project-text",
+    "pluralName": "project-texts",
+    "displayName": "Project Text"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Untitled.txt"
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "uid": {
+      "type": "uid"
+    }
+  }
+}

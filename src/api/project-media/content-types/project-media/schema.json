@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "project_medias",
+  "info": {
+    "singularName": "project-media",
+    "pluralName": "project-medias",
+    "displayName": "Project Media"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "media": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "uid": {
+      "type": "uid"
+    }
+  }
+}
